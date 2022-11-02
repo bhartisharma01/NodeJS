@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "bharti",
+        "email": "sharma@gmail.com",
+        "address": {
+            "street": "budh vihar",
+            "landmark": "milan vatika"
+        },
+        "phone": "7865678545"
+    },
+    {
+        "id": 2,
+        "name": "bharti sharma",
+        "email": "sharma1@gmail.com",
+        "address": {
+            "street": "budh vihar",
+            "landmark": "milan vatika"
+        },
+        "phone": "7865678545"
+    },
+    {
+        "id": 3,
+        "name": "harshit",
+        "email": "sharma01@gmail.com",
+        "address": {
+            "street": "budh vihar",
+            "landmark": "milan vatika"
+        },
+        "phone": "7865678545"
+    }
+]
