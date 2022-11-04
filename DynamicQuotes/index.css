@@ -60,3 +60,11 @@ div#quote__tweet {
     justify-content: flex-end;
     cursor: pointer;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 720px) {
+    .quote__block {
+        width: 325px;
+    }
+}
+
+/* 320px — 480px */

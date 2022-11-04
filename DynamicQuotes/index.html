@@ -13,20 +13,26 @@
 
 <body>
     <div class="container-fluid quote__container">
-        <div class="quote__block">
-            <div id="quote__tweet">
-                <img src="twitter.png" id="tweetMe" alt="tweet me">
+
+        <div class="row">
+            <!-- <div class="col"></div> -->
+            <div class="quote__block col col-xs-6 col-sm-6">
+                <div id="quote__tweet">
+                    <img src="twitter.png" id="tweetMe" alt="tweet me">
+                </div>
+                <div class="quote__text">
+                    <p id="quote__text"></p>
+                </div>
+                <div class="quote__author">
+                    <p id="quote__author"></p>
+                </div>
+                <div class="d-grid newQuoteBtn">
+                    <button class=" QuoteBtn" id="newQuote" type="button">New Quote</button>
+                </div>
             </div>
-            <div class="quote__text">
-                <p id="quote__text"></p>
-            </div>
-            <div class="quote__author">
-                <p id="quote__author"></p>
-            </div>
-            <div class="d-grid newQuoteBtn">
-                <button class=" QuoteBtn" id="newQuote" type="button">New Quote</button>
-            </div>
+            <!-- <div class="col"></div> -->
         </div>
+
     </div>
     <script src="quotes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
